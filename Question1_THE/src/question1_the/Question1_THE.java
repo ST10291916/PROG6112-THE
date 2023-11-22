@@ -32,14 +32,14 @@ System.out.println("------------------------------------------------------");
         System.out.println("------------------------------------------------------");
         System.out.println("Joe Bloggs\t\t" + sales[0][0] + "\t\t" + sales[0][1] + "\t" + sales[0][2]);
         System.out.println("Jane Doe\t\t" + sales[1][0] + "\t\t" + sales[1][1] + "\t\t" + sales[1][2]);
-        System.out.println("------------------------------------------------------");
+        System.out.println("\t");
         System.out.println("Total Sales For Joe Bloggs: R"+totalSales[0]);
         
          System.out.println("Total Sales For Jane Doe: R"+totalSales[1]);
-        System.out.println("------------------------------------------------------"); 
+        System.out.println("\t"); 
          System.out.println("Sales Commission For Joe Bloggs: R"+commissions[0]);
          System.out.println("Sales Commission For Jane Doe: R"+commissions[1]);
-System.out.println("------------------------------------------------------");
+System.out.println("\t\t");
         System.out.println("Top performing agent: " + (topAgent == 0 ? "Joe Bloggs" : "Jane Doe"));
     }
 }
